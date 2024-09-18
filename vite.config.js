@@ -1,6 +1,9 @@
 // vite.config.js
 export default {
     base: '/DND/',
-    // other configurations
+    build: {
+        outDir: 'dist',
+        assetsDir: 'assets',
+      },
   };
   
